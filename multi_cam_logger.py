@@ -29,13 +29,13 @@ import cv2
 # Stable camera device paths (by-path)
 # ============================================================
 # Dedicated QR control camera (NOT recorded here)
-QR_CONTROL_CAM = "/dev/v4l/by-path/platform-3f980000.usb-usb-0:1.1.2:1.0-video-index0"
+QR_CONTROL_CAM = "/dev/v4l/by-path/platform-3f980000.usb-usb-0:1.2:1.0-video-index0"
 
 # Two recording cameras (record these):
 #  - H264 camera on port 1.2 (use video-index0)
 #  - second icSpring on port 1.3 (use video-index0)
 RECORD_CAMS_DEFAULT = [
-    "/dev/v4l/by-path/platform-3f980000.usb-usb-0:1.2:1.0-video-index0",
+    "/dev/v4l/by-path/platform-3f980000.usb-usb-0:1.1.2:1.0-video-index0",
     "/dev/v4l/by-path/platform-3f980000.usb-usb-0:1.3:1.0-video-index0",
 ]
 

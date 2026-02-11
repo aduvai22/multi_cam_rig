@@ -9,7 +9,7 @@ import cv2
 # ----------------------------
 # Config
 # ----------------------------
-CONTROL_CAM_DEVICE = "/dev/v4l/by-path/platform-3f980000.usb-usb-0:1.1.2:1.0-video-index0"
+CONTROL_CAM_DEVICE = "/dev/v4l/by-path/platform-3f980000.usb-usb-0:1.2:1.0-video-index0"
 
 SCAN_FPS = 6
 WIDTH, HEIGHT = 640, 480
